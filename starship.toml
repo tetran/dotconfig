@@ -1,0 +1,27 @@
+add_newline = true
+
+[character]
+success_symbol = "🍺🍺"
+error_symbol = "👻👻👻"
+
+[memory_usage]
+disabled = false 
+threshold = -1
+#symbol = ""
+style = "green"
+format = "via $symbol[${ram}( | ${swap})]($style) "
+
+[docker_context]
+disabled = true
+
+[aws]
+disabled = true
+#format = "on [$symbol$profile]($style) "
+symbol = "🅰 "
+
+[battery]
+disabled = false
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+
